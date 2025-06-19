@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@types/d3": "^7.4.3",
+    "d3": "^7.9.0",
+    "react-markdown": "^10.1.0",
+    "reactflow": "^11.11.4",
+    "task-master-ai": "^0.17.1"
+  }
+}

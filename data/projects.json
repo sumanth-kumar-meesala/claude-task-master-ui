@@ -1,0 +1,110 @@
+{
+  "_default": {
+    "1": {
+      "name": "Campus Pilot",
+      "description": "Campus Pilot is a comprehensive campus management platform designed specifically for Indian educational institutions. It bridges communication and streamlines operations between campus administration, teachers, and parents/guardians through a unified digital ecosystem.",
+      "requirements": "## Admin Application Flow\n\n### Registration and Login\n- Admin registers using email, password, and name\n- Admin logs into their account using email and password credentials\n\n### Profile Management\n- Upon login, if the admin already has existing profiles, they will choose a specific profile\n- Once a profile is selected, when the app is closed and reopened, the user is automatically redirected to the dashboard of that specific profile (admin dashboard in this case)\n- If the user doesn't have any existing profiles upon login, they can create multiple profiles such as admin, teacher, or parent\n- Profiles are essentially different account types - for example, a teacher can also be an admin or parent, and they select the campus and fill in the required details for that campus\n\n### Admin Capabilities\n- **Campus Management**: Setup and configure campus settings\n- **Profile Management**: Approve or deactivate user profiles\n- **Academic Planning**: Define the academic year structure\n- **Class and Subject Management**: Create classes (with sections) and subjects for the academic year\n- **Teacher Assignment**: Assign active teachers to subjects and classes for the academic year\n- **Class Teacher Assignment**: Designate a teacher as class representative (class teacher) who is responsible for that specific class - only one class teacher per class\n- **Student Management**: Assign students to classes for the academic year\n- **Timetable Management**: Generate and manage timetables for the academic year\n- **Leave Management**: Approve teacher and parent/student leave requests for the academic year\n- **Communication**: Send notifications to all parents/students in the campus, or target specific groups (teachers only, specific class, or individual parent/student)\n- **Transportation Management**: Manage transportation routes and stops, driver information, and schedules for the academic year\n- **Academic Activities**: Manage exam timetables, holidays, and plan academic activities for the year\n- **Fee Management**: Add fee structure and breakdown for each class with due dates\n\n## Teacher Application Flow\n\n### Registration and Login\n- Teacher registers using email, password, and name\n- Teacher logs into their account using email and password credentials\n\n### Profile Management\n- Upon login, if the teacher already has existing profiles, they will choose a specific profile\n- Once a profile is selected, when the app is closed and reopened, the user is automatically redirected to the dashboard of that specific profile (teacher dashboard in this case)\n- If the user doesn't have any existing profiles upon login, they can create multiple profiles such as teacher or parent\n- Profiles are essentially different account types - for example, a teacher can also be a parent, and they select the campus and fill in the required details for that campus\n\n### Teacher Capabilities\n- **Class Access**: Access assigned classes (with sections) and subjects for the academic year\n- **Student Approval**: Approve students into classes for the academic year\n- **Attendance Management**: Use a weekly calendar to select dates and mark student attendance - all students are marked present by default in the UI, and teachers only need to uncheck absent students before submitting\n- **Daily Activities**: Create tasks and homework entries in the daily diary for the academic year\n- **Assessment**: Mark and grade tasks/exams for each student during the academic year\n- **Results Publication**: Publish quarterly and half-yearly exam results for the academic year\n- **Communication**: Send notifications to all students in the class or to individual students for the academic year\n- **Leave Management**: Approve or reject leave requests with reasons\n- **Information Access**: View notification details, holidays, and full academic year events\n- **Leave Requests**: Submit personal leave requests\n\n## Parent Application Flow\n\n### Registration and Login\n- Parent registers using email, password, and name\n- Parent logs into their account using email and password credentials\n\n### Profile Management\n- Upon login, if the parent already has existing profiles, they will choose a specific profile\n- Once a profile is selected, when the app is closed and reopened, the user is automatically redirected to the dashboard of that specific profile (parent dashboard in this case)\n- If the user doesn't have any existing profiles upon login, they can create multiple profiles such as parent or teacher\n- Profiles are essentially different account types - for example, a parent can also be a teacher, and they select the campus and fill in the required details for that campus\n\n### Parent Capabilities\n- **Attendance Tracking**: View daily student attendance and overall attendance percentage for the academic year\n- **Daily Diary Access**: View daily diary entries using a weekly calendar to select dates, including teacher notes and observations for the academic year\n- **Results Monitoring**: Check results published by teachers for the academic year\n- **Communication**: View notification details\n- **Academic Calendar**: View holidays and full academic year events\n- **Leave Requests**: Submit leave requests for their child\n- **Fee Information**: View fee structure and due dates\n- **Schedule Access**: View child's timetable\n- **Homework Tracking**: View assignments and their completion status",
+      "status": "draft",
+      "tags": [
+        "mobile"
+      ],
+      "tech_stack": [
+        "flutter",
+        "AWS",
+        "Amplify",
+        "API gateway",
+        "dynamodb",
+        "cognito",
+        "serverless",
+        "lambda"
+      ],
+      "metadata": {},
+      "id": "proj_1750308664554_vnllv97tt",
+      "created_at": "2025-06-19T04:51:04.554Z",
+      "updated_at": "2025-06-19T10:57:46.462512",
+      "agents_involved": [],
+      "file_structure": {},
+      "tasks": [],
+      "session_data": {},
+      "task_master_path": "C:\\Users\\Sumu\\Desktop\\project-overview-agent\\backend\\..\\data\\generated_projects\\proj_1750308664554_vnllv97tt",
+      "task_master_initialized": true,
+      "tasks_generated": true,
+      "tasks_count": 30,
+      "last_task_generation": "2025-06-19T16:27:46.451006",
+      "task_master_config": {
+        "last_prd_content": "# Product Requirements Document (PRD)\n## Campus Pilot\n\n**Generated on:** 2025-06-19 16:21:20\n**Project ID:** proj_1750308664554_vnllv97tt\n**Status:** Draft\n\n---\n\n## 1. Project Overview\n\n### Description\nCampus Pilot is a comprehensive campus management platform designed specifically for Indian educational institutions. It bridges communication and streamlines operations between campus administration, teachers, and parents/guardians through a unified digital ecosystem.\n\n## 2. Requirements\n\n### Functional Requirements\n## Admin Application Flow\n\n### Registration and Login\n- Admin registers using email, password, and name\n- Admin logs into their account using email and password credentials\n\n### Profile Management\n- Upon login, if the admin already has existing profiles, they will choose a specific profile\n- Once a profile is selected, when the app is closed and reopened, the user is automatically redirected to the dashboard of that specific profile (admin dashboard in this case)\n- If the user doesn't have any existing profiles upon login, they can create multiple profiles such as admin, teacher, or parent\n- Profiles are essentially different account types - for example, a teacher can also be an admin or parent, and they select the campus and fill in the required details for that campus\n\n### Admin Capabilities\n- **Campus Management**: Setup and configure campus settings\n- **Profile Management**: Approve or deactivate user profiles\n- **Academic Planning**: Define the academic year structure\n- **Class and Subject Management**: Create classes (with sections) and subjects for the academic year\n- **Teacher Assignment**: Assign active teachers to subjects and classes for the academic year\n- **Class Teacher Assignment**: Designate a teacher as class representative (class teacher) who is responsible for that specific class - only one class teacher per class\n- **Student Management**: Assign students to classes for the academic year\n- **Timetable Management**: Generate and manage timetables for the academic year\n- **Leave Management**: Approve teacher and parent/student leave requests for the academic year\n- **Communication**: Send notifications to all parents/students in the campus, or target specific groups (teachers only, specific class, or individual parent/student)\n- **Transportation Management**: Manage transportation routes and stops, driver information, and schedules for the academic year\n- **Academic Activities**: Manage exam timetables, holidays, and plan academic activities for the year\n- **Fee Management**: Add fee structure and breakdown for each class with due dates\n\n## Teacher Application Flow\n\n### Registration and Login\n- Teacher registers using email, password, and name\n- Teacher logs into their account using email and password credentials\n\n### Profile Management\n- Upon login, if the teacher already has existing profiles, they will choose a specific profile\n- Once a profile is selected, when the app is closed and reopened, the user is automatically redirected to the dashboard of that specific profile (teacher dashboard in this case)\n- If the user doesn't have any existing profiles upon login, they can create multiple profiles such as teacher or parent\n- Profiles are essentially different account types - for example, a teacher can also be a parent, and they select the campus and fill in the required details for that campus\n\n### Teacher Capabilities\n- **Class Access**: Access assigned classes (with sections) and subjects for the academic year\n- **Student Approval**: Approve students into classes for the academic year\n- **Attendance Management**: Use a weekly calendar to select dates and mark student attendance - all students are marked present by default in the UI, and teachers only need to uncheck absent students before submitting\n- **Daily Activities**: Create tasks and homework entries in the daily diary for the academic year\n- **Assessment**: Mark and grade tasks/exams for each student during the academic year\n- **Results Publication**: Publish quarterly and half-yearly exam results for the academic year\n- **Communication**: Send notifications to all students in the class or to individual students for the academic year\n- **Leave Management**: Approve or reject leave requests with reasons\n- **Information Access**: View notification details, holidays, and full academic year events\n- **Leave Requests**: Submit personal leave requests\n\n## Parent Application Flow\n\n### Registration and Login\n- Parent registers using email, password, and name\n- Parent logs into their account using email and password credentials\n\n### Profile Management\n- Upon login, if the parent already has existing profiles, they will choose a specific profile\n- Once a profile is selected, when the app is closed and reopened, the user is automatically redirected to the dashboard of that specific profile (parent dashboard in this case)\n- If the user doesn't have any existing profiles upon login, they can create multiple profiles such as parent or teacher\n- Profiles are essentially different account types - for example, a parent can also be a teacher, and they select the campus and fill in the required details for that campus\n\n### Parent Capabilities\n- **Attendance Tracking**: View daily student attendance and overall attendance percentage for the academic year\n- **Daily Diary Access**: View daily diary entries using a weekly calendar to select dates, including teacher notes and observations for the academic year\n- **Results Monitoring**: Check results published by teachers for the academic year\n- **Communication**: View notification details\n- **Academic Calendar**: View holidays and full academic year events\n- **Leave Requests**: Submit leave requests for their child\n- **Fee Information**: View fee structure and due dates\n- **Schedule Access**: View child's timetable\n- **Homework Tracking**: View assignments and their completion status\n\n## 3. Technical Specifications\n\n### Technology Stack\n- flutter\n- AWS\n- Amplify\n- API gateway\n- dynamodb\n- cognito\n- serverless\n- lambda\n\n## 4. Constraints and Considerations\n\n## 5. Project Tags\n\n**Tags:** mobile\n\n## 6. Existing Project Overview\n\n### Previous Analysis\n*Generated on: 2025-06-19T16:14:49.634282*\n\n# Project Overview\n\nGenerated from Task Master on 2025-06-19 16:14:49\n\n## Summary\n\nThis project consists of 30 main tasks generated from the Product Requirements Document (PRD).\n\n## Project Setup Checklist\n\n- [ ] Review all project requirements and constraints\n- [ ] Set up development environment\n- [ ] Initialize project repository\n- [ ] Configure development tools and dependencies\n- [ ] Set up testing framework\n- [ ] Configure CI/CD pipeline (if applicable)\n- [ ] Set up documentation structure\n\n## Task Breakdown Checklist\n\n### High Priority Tasks\n- [ ] **Task 1**: Project Initialization & AWS Amplify Setup\n- [ ] **Task 2**: Configure AWS Cognito for Authentication\n- [ ] **Task 3**: Design & Implement Core DynamoDB Data Models\n- [ ] **Task 4**: Configure Amplify GraphQL API for Core Models\n- [ ] **Task 6**: Implement User Registration Flow\n- [ ] **Task 7**: Implement User Login Flow\n- [ ] **Task 8**: Develop Multi-Profile Selection & Creation Logic\n- [ ] **Task 9**: Implement Profile Persistence & Auto-Redirection\n- [ ] **Task 10**: Implement Campus Management (CRUD)\n- [ ] **Task 12**: Implement Class & Subject Management\n- [ ] **Task 13**: Implement Admin Profile Approval/Deactivation\n- [ ] **Task 17**: Implement Timetable Management\n- [ ] **Task 21**: Implement Teacher Dashboard & Assigned Class/Subject Access\n- [ ] **Task 22**: Implement Student Approval into Classes (Teacher)\n- [ ] **Task 23**: Implement Weekly Student Attendance Marking\n- [ ] **Task 25**: Implement Assessment & Grading for Students\n- [ ] **Task 26**: Implement Results Publication\n- [ ] **Task 28**: Implement Parent Dashboard & Child-Specific Data Access\n- [ ] **Task 29**: Implement Student Attendance & Daily Diary Viewing (Parent)\n- [ ] **Task 30**: Implement Results, Fee Information, Timetable, & Homework Viewing (Parent)\n\n### Medium Priority Tasks\n- [ ] **Task 5**: Implement Base Flutter UI Structure & Navigation\n- [ ] **Task 11**: Implement Academic Year Structure Definition\n- [ ] **Task 14**: Implement Teacher Assignment to Classes & Subjects\n- [ ] **Task 15**: Implement Class Teacher Assignment\n- [ ] **Task 16**: Implement Student Assignment to Classes\n- [ ] **Task 18**: Implement Fee Structure & Due Dates Management\n- [ ] **Task 20**: Implement Academic Activities Management\n- [ ] **Task 24**: Implement Daily Activities & Homework Entry\n- [ ] **Task 27**: Implement Teacher-to-Student/Class Communication\n\n### Low Priority Tasks\n- [ ] **Task 19**: Implement Transportation Management\n\n## Project Milestones Checklist\n\n- [ ] Phase 1: High priority tasks completed\n- [ ] Phase 2: Medium priority tasks completed\n- [ ] Phase 3: Low priority tasks completed\n- [ ] Integration testing completed\n- [ ] Performance testing completed\n- [ ] Security review completed\n- [ ] Documentation finalized\n- [ ] Code review completed\n- [ ] Deployment preparation completed\n- [ ] Project ready for release\n\n## Quality Assurance Checklist\n\n- [ ] All code follows project standards\n- [ ] All tests are passing\n- [ ] Code coverage meets requirements\n- [ ] No security vulnerabilities\n- [ ] Performance requirements met\n- [ ] Documentation is complete and accurate\n- [ ] All dependencies are up to date\n- [ ] Error handling is comprehensive\n\n## Implementation Notes\n\nEach task has been designed to be atomic and focused on a single responsibility. Tasks are ordered logically considering dependencies and implementation sequence.\n\nFor detailed information about each task, refer to the individual task files.\n\n\n## 8. Task Generation Instructions\n\nBased on the above requirements and specifications, please generate detailed, actionable tasks that will help implement this project. Consider the following when creating tasks:\n\n1. **Break down complex features** into manageable, atomic tasks\n2. **Include dependencies** between tasks where applicable\n3. **Consider the technology stack** and architecture preferences\n4. **Account for testing and quality assurance** requirements\n5. **Include documentation and deployment** tasks\n6. **Prioritize tasks** based on project objectives and constraints\n7. **Ensure tasks are specific and measurable** with clear acceptance criteria\n\nThe generated tasks should provide a comprehensive roadmap for implementing this project from start to finish.\n",
+        "use_research": false,
+        "default_num_tasks": 30,
+        "generation_history": [
+          {
+            "timestamp": "2025-06-19T10:58:34.160278",
+            "num_tasks": 10,
+            "research_used": false,
+            "success": true
+          },
+          {
+            "timestamp": "2025-06-19T14:15:57.490236",
+            "num_tasks": 20,
+            "research_used": true,
+            "success": true
+          },
+          {
+            "timestamp": "2025-06-19T16:10:36.342535",
+            "num_tasks": 30,
+            "research_used": false,
+            "success": true
+          },
+          {
+            "timestamp": "2025-06-19T16:14:50.507582",
+            "num_tasks": 30,
+            "research_used": true,
+            "success": true
+          },
+          {
+            "timestamp": "2025-06-19T16:27:46.451006",
+            "num_tasks": 30,
+            "research_used": false,
+            "success": true
+          }
+        ]
+      }
+    },
+    "2": {
+      "name": "Test Task Generation",
+      "description": "A test project for task generation",
+      "requirements": "Build a simple web application with user authentication",
+      "tech_stack": [
+        "React",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "id": "proj_1750310310_6823",
+      "created_at": "2025-06-19T10:48:30.274835Z",
+      "updated_at": "2025-06-19T05:25:46.573704",
+      "status": "draft",
+      "tags": [],
+      "metadata": {},
+      "file_structure": {},
+      "tasks": [],
+      "session_data": {},
+      "task_master_path": "C:\\Users\\Sumu\\Desktop\\project-overview-agent\\backend\\..\\data\\generated_projects\\proj_1750310310_6823",
+      "task_master_initialized": true,
+      "tasks_generated": true,
+      "tasks_count": 3,
+      "last_task_generation": "2025-06-19T10:55:46.561736",
+      "task_master_config": {
+        "last_prd_content": "# Simple Todo App\n\n## Overview\nBuild a basic todo application.\n\n## Features\n1. Add tasks\n2. Mark tasks as complete\n3. Delete tasks\n\n## Technical Requirements\n- Frontend: HTML, CSS, JavaScript\n- Backend: Node.js\n- Database: JSON file",
+        "use_research": false,
+        "default_num_tasks": 3,
+        "generation_history": [
+          {
+            "timestamp": "2025-06-19T10:55:46.561736",
+            "num_tasks": 3,
+            "research_used": false,
+            "success": true
+          }
+        ]
+      }
+    }
+  }
+}

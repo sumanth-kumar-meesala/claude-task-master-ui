@@ -1,0 +1,21 @@
+# Core dependencies
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+
+google-generativeai>=0.3.2
+pydantic>=2.5.0
+pydantic-settings>=2.0.0
+tinydb>=4.8.0
+python-dotenv>=1.0.0
+python-multipart>=0.0.6
+aiofiles>=23.2.1
+jsonschema>=4.20.0
+PyYAML>=6.0.1
+
+# Development dependencies
+pytest>=7.4.3
+pytest-asyncio>=0.21.1
+black>=23.11.0
+isort>=5.12.0
+mypy>=1.7.1
+httpx>=0.25.0
